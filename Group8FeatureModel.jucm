@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fm="http:///fm.ecore" xmlns:grl="http:///grl.ecore" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Matthew" created="November 4, 2020 at 7:44:17 PM EST" modified="November 4, 2020 at 8:45:46 PM EST" specVersion="13" urnVersion="1.27" nextGlobalID="194">
+  <ucmspec>
+    <scenarioGroups name="ScenarioGroup7" id="7">
+      <scenarios name="ScenarioDef8" id="8"/>
+    </scenarioGroups>
+  </ucmspec>
+  <grlspec>
+    <intElements xsi:type="fm:Feature" name="virtual background" id="15" type="Task" refs="16"/>
+    <intElements xsi:type="fm:Feature" name="File Transfer" id="19" type="Task" refs="20"/>
+    <intElements xsi:type="fm:Feature" name="Video Conferencing Platform" id="21" type="Task" refs="22"/>
+    <intElements xsi:type="fm:Feature" name="polls" id="25" type="Task" refs="26"/>
+    <intElements xsi:type="fm:Feature" name="private meeting" id="27" type="Task" refs="28 98"/>
+    <intElements xsi:type="fm:Feature" name="notes" id="29" type="Task" refs="30"/>
+    <intElements xsi:type="fm:Feature" name="welcome message" id="31" type="Task" refs="32"/>
+    <intElements xsi:type="fm:Feature" name="chat" id="35" type="Task" refs="36"/>
+    <intElements xsi:type="fm:Feature" name="call-in bridge" id="37" type="Task" refs="38"/>
+    <intElements xsi:type="fm:Feature" name="health checker" id="39" type="Task" refs="40"/>
+    <intElements xsi:type="fm:Feature" name="calendar integration" id="41" type="Task" refs="42"/>
+    <intElements xsi:type="fm:Feature" name="registration" id="43" type="Task" refs="44"/>
+    <intElements xsi:type="fm:Feature" name="reactions" id="45" type="Task" refs="46"/>
+    <intElements xsi:type="fm:Feature" name="breakout room" id="47" type="Task" refs="48"/>
+    <intElements xsi:type="fm:Feature" name="Screenshare" id="49" linksDest="76 77" type="Task" refs="50"/>
+    <intElements xsi:type="fm:Feature" name="record" id="51" type="Task" refs="52"/>
+    <intElements xsi:type="fm:Feature" name="voice chat" id="53" type="Task" refs="54"/>
+    <intElements xsi:type="fm:Feature" name="webcam" id="55" type="Task" refs="56"/>
+    <intElements xsi:type="fm:Feature" name="appshare" id="61" linksSrc="77" type="Task" refs="62"/>
+    <intElements xsi:type="fm:Feature" name="wholescreen share" id="67" linksSrc="76" type="Task" refs="68"/>
+    <intElements xsi:type="fm:Feature" name="annotation" id="87" type="Task" refs="88"/>
+    <intElements xsi:type="fm:Feature" name="audio control" id="91" type="Task" refs="92"/>
+    <intElements xsi:type="fm:Feature" name="participant roles" id="95" type="Task" refs="96"/>
+    <intElements xsi:type="fm:Feature" name="Feature97" id="97" type="Task"/>
+    <intElements xsi:type="fm:Feature" name="public server" id="101" type="Task" refs="102"/>
+    <intElements xsi:type="fm:Feature" name="voice channels" id="103" type="Task" refs="104"/>
+    <intElements xsi:type="fm:Feature" name="joining/leaving server" id="105" type="Task" refs="106"/>
+    <intElements xsi:type="fm:Feature" name="text channels" id="107" type="Task" refs="108"/>
+    <intElements xsi:type="fm:Feature" name="channel categories" id="111" type="Task" refs="112"/>
+    <intElements xsi:type="fm:Feature" name="user nicknames" id="115" type="Task" refs="116"/>
+    <intElements xsi:type="fm:Feature" name="noise suppression" id="117" type="Task" refs="118"/>
+    <intElements xsi:type="fm:Feature" name="server mute/unmute" id="119" type="Task" refs="120"/>
+    <intElements xsi:type="fm:Feature" name="Host" id="123" type="Task" refs="124"/>
+    <intElements xsi:type="fm:Feature" name="participant" id="125" type="Task" refs="126"/>
+    <intElements xsi:type="fm:Feature" name="mute/unmute" id="129" type="Task" refs="130"/>
+    <intElements xsi:type="fm:Feature" name="quick switcher" id="131" type="Task" refs="132"/>
+    <intElements xsi:type="fm:Feature" name="kick/ban" id="133" type="Task" refs="134"/>
+    <intElements xsi:type="fm:Feature" name="limit number of users in a voice channel" id="135" type="Task" refs="136"/>
+    <intElements xsi:type="fm:Feature" name="tagging users in text channels" id="139" type="Task" refs="140"/>
+    <intElements xsi:type="fm:Feature" name="bots" id="141" type="Task" refs="142"/>
+    <intElements xsi:type="fm:Feature" name="pinned messages" id="143" type="Task" refs="144"/>
+    <intElements xsi:type="fm:Feature" name="badge" id="147" type="Task" refs="148"/>
+    <intElements xsi:type="fm:Feature" name="clips" id="151" type="Task" refs="152"/>
+    <intElements xsi:type="fm:Feature" name="emotes" id="153" type="Task" refs="154"/>
+    <intElements xsi:type="fm:Feature" name="language options" id="155" type="Task" refs="156"/>
+    <intElements xsi:type="fm:Feature" name="moderators" id="157" type="Task" refs="158"/>
+    <intElements xsi:type="fm:Feature" name="notifications" id="159" type="Task" refs="160"/>
+    <intElements xsi:type="fm:Feature" name="video filters" id="163" type="Task" refs="164"/>
+    <intElements xsi:type="fm:Feature" name="transcript" id="165" type="Task" refs="166"/>
+    <intElements xsi:type="fm:Feature" name="LMS integration" id="167" type="Task" refs="168"/>
+    <intElements xsi:type="fm:Feature" name="waiting room" id="169" type="Task" refs="170"/>
+    <intElements xsi:type="fm:Feature" name="meeting views" id="171" type="Task" refs="172"/>
+    <intElements xsi:type="fm:Feature" name="block participant video sharing" id="173" type="Task" refs="174"/>
+    <intElements xsi:type="fm:Feature" name="host message all breakout rooms" id="177" type="Task" refs="178"/>
+    <intElements xsi:type="fm:Feature" name="list participants" id="179" type="Task" refs="180"/>
+    <intElements xsi:type="fm:Feature" name="report" id="181" type="Task" refs="182"/>
+    <intElements xsi:type="fm:Feature" name="whiteboard" id="183" type="Task" refs="184"/>
+    <intElements xsi:type="fm:Feature" name="live closed captions" id="187" type="Task" refs="188"/>
+    <links xsi:type="grl:Decomposition" name="or" id="76" refs="//@urndef/@specDiagrams.2/@connections.0" dest="49" src="67"/>
+    <links xsi:type="grl:Decomposition" name="Decomposition77" id="77" refs="//@urndef/@specDiagrams.2/@connections.1" dest="49" src="61"/>
+    <groups name="StrategiesGroup5" id="5" strategies="6"/>
+    <strategies name="EvaluationStrategy6" id="6" author="Matthew" group="5"/>
+    <impactModel/>
+    <indicatorGroup name="Time" id="9" isRedesignCategory="true"/>
+    <indicatorGroup name="Cost" id="10" isRedesignCategory="true"/>
+    <indicatorGroup name="Quality" id="11" isRedesignCategory="true"/>
+    <indicatorGroup name="Flexibility" id="12" isRedesignCategory="true"/>
+    <featureModel/>
+  </grlspec>
+  <urndef>
+    <specDiagrams xsi:type="grl:GRLGraph" name="GRLGraph2" id="2"/>
+    <specDiagrams xsi:type="ucm.map:UCMmap" name="UCMmap3" id="3"/>
+    <specDiagrams xsi:type="fm:FeatureDiagram" name="FeatureDiagram4" id="4">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef16" id="16" x="314" y="112" def="15">
+        <metadata name="_width" value="110"/>
+        <metadata name="_height" value="45"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef20" id="20" x="695" y="238" def="19">
+        <metadata name="_width" value="111"/>
+        <metadata name="_height" value="31"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef22" id="22" x="755" y="3" def="21">
+        <metadata name="_height" value="64"/>
+        <metadata name="_width" value="105"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef26" id="26" x="589" y="255" def="25">
+        <metadata name="_width" value="66"/>
+        <metadata name="_height" value="33"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef28" id="28" x="222" y="336" def="27">
+        <metadata name="_width" value="126"/>
+        <metadata name="_height" value="32"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef30" id="30" x="522" y="405" def="29">
+        <metadata name="_width" value="76"/>
+        <metadata name="_height" value="28"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef32" id="32" x="864" y="449" def="31">
+        <metadata name="_width" value="134"/>
+        <metadata name="_height" value="38"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef36" id="36" x="125" y="17" def="35">
+        <metadata name="_height" value="31"/>
+        <metadata name="_width" value="68"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef38" id="38" x="1084" y="243" def="37">
+        <metadata name="_width" value="109"/>
+        <metadata name="_height" value="35"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef40" id="40" x="747" y="370" def="39">
+        <metadata name="_width" value="126"/>
+        <metadata name="_height" value="30"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef42" id="42" x="902" y="308" def="41">
+        <metadata name="_width" value="149"/>
+        <metadata name="_height" value="45"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef44" id="44" x="607" y="520" def="43">
+        <metadata name="_height" value="31"/>
+        <metadata name="_width" value="101"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef46" id="46" x="1119" y="389" def="45">
+        <metadata name="_height" value="32"/>
+        <metadata name="_width" value="94"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef48" id="48" x="268" y="559" def="47">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef50" id="50" x="63" y="367" pred="//@urndef/@specDiagrams.2/@connections.0 //@urndef/@specDiagrams.2/@connections.1" def="49">
+        <metadata name="_height" value="36"/>
+        <metadata name="_width" value="100"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef52" id="52" x="80" y="247" def="51">
+        <metadata name="_height" value="30"/>
+        <metadata name="_width" value="70"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef54" id="54" x="135" y="155" def="53">
+        <metadata name="_height" value="36"/>
+        <metadata name="_width" value="90"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef56" id="56" x="538" y="185" def="55">
+        <metadata name="_height" value="34"/>
+        <metadata name="_width" value="79"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef62" id="62" x="43" y="529" succ="//@urndef/@specDiagrams.2/@connections.1" def="61">
+        <metadata name="_width" value="85"/>
+        <metadata name="_height" value="34"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef68" id="68" x="154" y="517" succ="//@urndef/@specDiagrams.2/@connections.0" def="67">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef88" id="88" x="678" y="310" def="87">
+        <metadata name="_width" value="100"/>
+        <metadata name="_height" value="30"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef92" id="92" x="874" y="251" def="91">
+        <metadata name="_height" value="32"/>
+        <metadata name="_width" value="106"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef96" id="96" x="903" y="592" def="95">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef98" id="98" x="1641" y="41" def="27">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef102" id="102" x="1661" y="119" def="101">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef104" id="104" x="1675" y="201" def="103">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef106" id="106" x="1689" y="326" def="105">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef108" id="108" x="1701" y="261" def="107">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef112" id="112" x="1717" y="396" def="111">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef116" id="116" x="1734" y="459" def="115">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef118" id="118" x="1746" y="528" def="117">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef120" id="120" x="1751" y="600" def="119">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef124" id="124" x="692" y="90" def="123">
+        <metadata name="_height" value="29"/>
+        <metadata name="_width" value="55"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef126" id="126" x="857" y="86" def="125">
+        <metadata name="_width" value="92"/>
+        <metadata name="_height" value="34"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef130" id="130" x="1611" y="609" def="129">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef132" id="132" x="1634" y="546" def="131">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef134" id="134" x="1498" y="577" def="133">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef136" id="136" x="1600" y="468" def="135">
+        <metadata name="_height" value="62"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef140" id="140" x="1491" y="445" def="139">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef142" id="142" x="1559" y="339" def="141">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef144" id="144" x="1570" y="391" def="143">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef148" id="148" x="2340" y="52" def="147">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef152" id="152" x="2356" y="126" def="151">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef154" id="154" x="2367" y="167" def="153">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef156" id="156" x="2359" y="255" def="155">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef158" id="158" x="2379" y="322" def="157">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef160" id="160" x="2386" y="408" def="159">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef164" id="164" x="163" y="886" def="163">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef166" id="166" x="316" y="890" def="165">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef168" id="168" x="455" y="900" def="167">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef170" id="170" x="222" y="816" def="169">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef172" id="172" x="411" y="811" def="171">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef174" id="174" x="879" y="859" def="173">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef178" id="178" x="1019" y="881" def="177">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef180" id="180" x="857" y="934" def="179">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef182" id="182" x="1019" y="950" def="181">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef184" id="184" x="824" y="988" def="183">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef188" id="188" x="1414" y="857" def="187">
+        <metadata name="_height" value="45"/>
+        <metadata name="_width" value="110"/>
+      </nodes>
+      <connections xsi:type="grl:LinkRef" source="68" target="50" link="76"/>
+      <connections xsi:type="grl:LinkRef" source="62" target="50" link="77"/>
+      <comments description="should be an or, but it constantly throws errors" x="-3" y="406" width="100" height="100" fillColor="255,255,200"/>
+      <comments description="discord" x="1530" y="46" width="132" height="170" fillColor="255,255,200"/>
+      <comments description="twitch" x="2196" y="30" width="100" height="100" fillColor="255,255,200"/>
+      <comments description="zoom1" x="32" y="838" width="100" height="100" fillColor="255,255,200"/>
+      <comments description="zoom2" x="716" y="864" width="100" height="100" fillColor="255,255,200"/>
+      <comments description="meet1" x="1290" y="843" width="100" height="100" fillColor="255,255,200"/>
+      <comments description="meet2" x="1615" y="871" width="100" height="100" fillColor="255,255,200"/>
+    </specDiagrams>
+  </urndef>
+  <metadata name="_Use0to100EvaluationRange" value="false"/>
+  <dynamicContexts name="DynamicContext14" id="14" groups="13"/>
+  <dynamicContextGroups name="DynamicContextGroup13" id="13" contexts="14"/>
+  <timepointGroups/>
+</urn:URNspec>
